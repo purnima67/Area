@@ -7,6 +7,6 @@ document.getElementById("form").addEventListener("submit", function(e){
 
     const result=document.getElementById("result");
     result.textContent = content;
-    result.style.colr = textColor;
+    result.style.color = textColor;
     result.style.backgroundColor = bgColor;
 });
